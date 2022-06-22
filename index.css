@@ -1,0 +1,74 @@
+body,
+main::before {
+    background: url("./image/seattle2.jpg") 0 / cover fixed;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    grid-gap: 300px;
+}
+
+main {
+    width: 350px;
+    height: 225px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
+    border-radius: 75px;
+    position: relative;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+    font-size: 24px;
+    /* font-weight: bold; */
+    line-height: 75px;
+}
+
+main::before {
+    content: "";
+    position: absolute;
+    /* background: inherit; */
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, 0.491);
+    filter: blur(50px);
+    /* margin: -20px; */
+}
+
+h3 {
+    padding-top: 1rem;
+    text-align: center;
+}
+
+h3:hover {
+    cursor: default;
+}
+
+a {
+    text-decoration: none;
+    color: palevioletred;
+    letter-spacing: 1px;
+}
+
+a:hover {
+    cursor: pointer;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+}
+
+main:hover {
+    box-shadow: 0 0 20px rgba(203, 194, 194, 0.651);
+    transition: .3s ease;
+}
+
+.container {
+    margin-bottom: 500px;
+}
