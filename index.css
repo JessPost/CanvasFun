@@ -7,12 +7,11 @@ main::before {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    font-family: 'Roboto', sans-serif;
-    grid-gap: 300px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 main {
-    width: 350px;
+    width: 275px;
     height: 225px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
     border-radius: 75px;
@@ -35,7 +34,7 @@ main::before {
     right: 0;
     bottom: 0;
     box-shadow: inset 0 0 2000px rgba(255, 255, 255, 0.491);
-    filter: blur(50px);
+    filter: blur(90px);
     /* margin: -20px; */
 }
 
@@ -50,7 +49,8 @@ h3:hover {
 
 a {
     text-decoration: none;
-    color: palevioletred;
+    /* color: palevioletred; */
+    color: #a34b03;
     letter-spacing: 1px;
 }
 
@@ -65,7 +65,7 @@ p {
 }
 
 main:hover {
-    box-shadow: 0 0 20px rgba(203, 194, 194, 0.651);
+    box-shadow: 0 0 30px rgba(203, 194, 194, 0.651);
     transition: .3s ease;
 }
 
