@@ -13,7 +13,7 @@ window.onload = function () {
     //set a sound
     let orb = new Howl({
         src: ['OrbSounds/orbs2.mp3'],
-        volume: 9,
+        volume: 2,
     });
     Howler.stop();
     Howler.unload();
